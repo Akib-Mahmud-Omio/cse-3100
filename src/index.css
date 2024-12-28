@@ -20,7 +20,7 @@ footer {
 .cat-card {
   border: 1px solid #ddd;
   text-align: center;
-  height: 250px;
+  height: auto; /*height changed to "auto" in order to fix cat-card adjustment issues*/
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
